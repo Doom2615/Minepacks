@@ -40,7 +40,7 @@ jobs:
         mv Minepacks/target/M*-Release.jar artifacts/
 
     - name: Upload the artifacts
-      uses: skx/github-action-publish-binaries@master
+      uses: skx/github-action-publish-binaries@folia-support
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
